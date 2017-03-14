@@ -1,11 +1,16 @@
 Zabbix template apcupsd
 ==========================
 
-Tested on Zabbix Version 3.0
+Tested on Zabbix Version 3.2
 
 FEATURES
 --------
-
+* Model
+* Driver
+* Remaining battery percentage
+* Remaining runtime in minutes
+* Status Connection
+* Timeout
 
 REQUIREMENTS
 ------------
