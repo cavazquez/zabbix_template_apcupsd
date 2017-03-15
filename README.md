@@ -7,7 +7,7 @@ FEATURES
 --------
 * Model
 * Driver
-* Shows the set in apcupsd.conf:
+* Shows the set in __apcupsd.conf__:
   * MBATTCHG: Min battery charge % (BCHARGE) required for system shutdown
   * MINTIMEL: Min battery runtime (MINUTES) required for system shutdown
   * MAXTIME : Max battery runtime (TIMEOUT) after which system is shutdown
