@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2017-03-10T18:37:41Z</date>
+    <date>2017-03-15T13:52:51Z</date>
     <groups>
         <group>
             <name>Apcupsd</name>
@@ -67,7 +67,7 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Timeout</name>
+                    <name>MAXTIME : Max battery runtime</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -99,7 +99,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description>Max time</description>
+                    <description>MAXTIME : Max battery runtime (TIMEOUT) after which system is shutdown</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -110,7 +110,7 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Remaining battery percentage</name>
+                    <name>MBATTCHG: Min battery charge</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -142,7 +142,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description/>
+                    <description>MBATTCHG: Min battery charge % (BCHARGE) required for system shutdown</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
@@ -153,7 +153,7 @@
                     <logtimefmt/>
                 </item>
                 <item>
-                    <name>Remaining runtime in minutes</name>
+                    <name>MINTIMEL: Min battery runtime</name>
                     <type>0</type>
                     <snmp_community/>
                     <multiplier>0</multiplier>
@@ -185,7 +185,7 @@
                     <publickey/>
                     <privatekey/>
                     <port/>
-                    <description/>
+                    <description>MINTIMEL: Min battery runtime (MINUTES) required for system shutdown</description>
                     <inventory_link>0</inventory_link>
                     <applications>
                         <application>
