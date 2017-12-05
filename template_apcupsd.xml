@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.2</version>
-    <date>2017-03-15T13:52:51Z</date>
+    <date>2017-12-05T19:09:07Z</date>
     <groups>
         <group>
             <name>Apcupsd</name>
@@ -291,7 +291,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{apcupsd:apcupsd.status.regexp(ONLINE)}=0 or {apcupsd:apcupsd.status.regexp(ONLINE SLAVE)}=0</expression>
+            <expression>{apcupsd:apcupsd.status.regexp(^ONLINE)}=0</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Connection Status  in {{HOSTNAME}}</name>
