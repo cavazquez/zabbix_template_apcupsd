@@ -291,7 +291,7 @@
     </templates>
     <triggers>
         <trigger>
-            <expression>{apcupsd:apcupsd.status.regexp(^ONLINE)}=0</expression>
+            <expression>{apcupsd:apcupsd.status.regexp(^ONLINE$|^ONLINE SLAVE$)}=0</expression>
             <recovery_mode>0</recovery_mode>
             <recovery_expression/>
             <name>Connection Status  in {{HOSTNAME}}</name>
